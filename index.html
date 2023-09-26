@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer src="./js/menu-burger.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio | Benjamin HUNCKLER</title>
+</head>
+<body>
+    <header class="wrapper">
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">Votre Logo</a>
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#container-info-perso">À propos</a></li>
+                    <li><a href="#container-logiciels">Mes compétences</a></li>
+                    <li><a href="#container-projets">Mes projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="navbar-toggler" id="toggle-button">
+                    <img src="./img/burger-solid.svg" class="navbar-icon">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main x-data="app">
+        <section id="container-info-perso">
+            <div class="contenu-perso wrapper">
+                <div class="img-profil" data-aos="fade-right">
+                    <img src="./img/Jinx.png">
+                </div>
+                <div class="text-profil">
+                    <h2 data-aos="fade-down">Benjamin HUNCKLER</h2>
+                    <p data-aos="fade-up">En tant que jeune communicant, je suis toujours à la recherche d'opportunités pour développer mes compétences et mes connaissances. Ayant effectué deux années de multimédia en France, je termine ici au Canada ma formation française qui est semblable à un DEC intégration multimédia que j'effectue actuellement. Cette double diplomation que je suis en train d'acquérir me permet d'apprendre deux façons d'apprentissage, mais aussi me permet de voir le multimédia sous plusieurs angles.</p>
+
+                    <p data-aos="fade-up">J'ai de l'expérience dans la communication grâce à un stage effectué au sein du CIVA (Conseil Interprofessionnel des Vins d'Alsace) mais aussi grâce à tous les projets personnels auxquels j'ai pu travailler pour améliorer mes compétences dans le domaine de la communication. J'ai pu développer mes compétences en communication digitale et développer mes connaissances sur les différents réseaux sociaux utilisés aujourd'hui. Je suis toujours à la recherche de moyens d'améliorer mes compétences et de rester à jour sur la courbe dans ce domaine en évolution rapide.</p>
+
+                    <p data-aos="fade-up">De façon plus personnelle, j'ai 19 ans (bientôt 20), je suis passionné par le voyage, la nature et les découvertes de façon générale. Comme dis précédemment, je suis français, donc j'apprécie la bonne nourriture et le bon vin (cliché, mais vrai).</p>
+                        
+                    <p data-aos="fade-up">Pour me résumer, voici mes qualités et mes défauts en quelques mots :</p>
+                    <ul data-aos="fade-up">
+                        <li>Qualités : consciencieux, organisé et ponctuel</li>
+                        <li>Défauts : parfois indécis, un manque de confiance en moi et académique.</li>
+                    </ul>
+                    <p data-aos="fade-up">Voilà, maintenant, vous savez tout de moi. Si mon profil vous a intéressé, n'hésitez surtout pas à me contacter via mon adresse e-mail ou mes numéros de téléphone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="container-info-perso2">
+            <div class="contenu-perso2 wrapper">
+                <div class="img-profil" data-aos="fade-right">
+                    <img src="./img/Jinx.png">
+                </div>
+                <div class="text-profil">
+                    <h2 data-aos="fade-down">Benjamin HUNCKLER</h2>
+                    <p data-aos="fade-up">En tant que jeune communicant, je suis toujours à la recherche d'opportunités pour développer mes compétences et mes connaissances. Ayant effectué deux années de multimédia en France, je termine ici au Canada ma formation française qui est semblable à un DEC intégration multimédia que j'effectue actuellement. Cette double diplomation que je suis en train d'acquérir me permet d'apprendre deux façons d'apprentissage, mais aussi me permet de voir le multimédia sous plusieurs angles.</p>
+
+                    <p data-aos="fade-up">J'ai de l'expérience dans la communication grâce à un stage effectué au sein du CIVA (Conseil Interprofessionnel des Vins d'Alsace) mais aussi grâce à tous les projets personnels auxquels j'ai pu travailler pour améliorer mes compétences dans le domaine de la communication. J'ai pu développer mes compétences en communication digitale et développer mes connaissances sur les différents réseaux sociaux utilisés aujourd'hui. Je suis toujours à la recherche de moyens d'améliorer mes compétences et de rester à jour sur la courbe dans ce domaine en évolution rapide.</p>
+
+                    <p data-aos="fade-up">De façon plus personnelle, j'ai 19 ans (bientôt 20), je suis passionné par le voyage, la nature et les découvertes de façon générale. Comme dis précédemment, je suis français, donc j'apprécie la bonne nourriture et le bon vin (cliché, mais vrai).</p>
+                        
+                    <p data-aos="fade-up">Pour me résumer, voici mes qualités et mes défauts en quelques mots :</p>
+                    <ul data-aos="fade-up">
+                        <li>Qualités : consciencieux, organisé et ponctuel</li>
+                        <li>Défauts : parfois indécis, un manque de confiance en moi et académique.</li>
+                    </ul>
+                    <p data-aos="fade-up">Voilà, maintenant, vous savez tout de moi. Si mon profil vous a intéressé, n'hésitez surtout pas à me contacter via mon adresse e-mail ou mes numéros de téléphone.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="container-logiciels">
+            <div class="wrapper">
+                <h2 class="title-logiciels" data-aos="fade-down-right">Mes compétences</h2>
+                <div class="categorie-logiciel">
+                    <div class="container-logo-com" data-aos="fade-right">
+                        <h3>Communication</h3>
+                        <div class="all-logo-com">
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/facebook.png" alt="Logo Facebook">
+                                </div>
+                                <p>Facebook</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/Instagram.png" alt="Logo Instagram">
+                                </div>
+                                <p>Instagram</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/meta.png" alt="Logo Meta">
+                                </div>
+                                <p>Meta Suite</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/YouTube.png" alt="Logo YouTube">
+                                </div>
+                                <p>YouTube</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/trello.png" alt="Logo Trello">
+                                </div>
+                                <p>Trello</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/screaming-frogg.png" alt="Logo Screaming Frogg">
+                                </div>
+                                <p>Screaming Frogg</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/google-ads.png" alt="Logo Google Ads">
+                                </div>
+                                <p>Google Ads</p>
+                            </div>
+                            <div class="logo-text">
+                                <div class="logo">
+                                    <img src="./img/google-analytics.png" alt="Logo Google Analytics">
+                                </div>
+                                <p>Google analytics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-autres">
+                        <div class="container-logo" data-aos="fade-down-left">
+                            <h3>Audiovisuel</h3>
+                            <div class="all-logo">
+                                <div class="logo-text">
+                                    <div class="logo">
+                                        <img src="./img/premiere-pro.png" alt="Logo Adobe Premiere Pro">
+                                    </div>
+                                    <p>Premiere Pro</p>
+                                </div>
+                                <div class="logo-text">
+                                    <div class="logo">
+                                        <img src="./img/after-effects.png" alt="Logo Adobe After Effects">
+                                    </div>
+                                    <p>After Effects</p>
+                                </div>
+                                <div class="logo-text">
+                                    <div class="logo">
+                                        <img src="./img/Illustrator.png" alt="Logo Adobe Illustrator">
+                                    </div>
+                                    <p>Illustrator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-logo" data-aos="fade-up-left">
+                            <h3>Autres</h3>
+                            <div class="all-logo">
+                                <div class="logo-text">
+                                    <div class="logo">
+                                        <img src="./img/figma.png" alt="Logo Figma">
+                                    </div>
+                                    <p>Figma</p>
+                                </div>
+                                <div class="logo-text">
+                                    <div class="logo">
+                                        <img src="./img/html.png" alt="Logo HTML">
+                                    </div>
+                                    <p>HTML</p>
+                                </div>
+                                <div class="logo-text">
+                                    <div class="logo">
+                                        <img src="./img/css.png" alt="Logo CSS">
+                                    </div>
+                                    <p>CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="container-projets">
+            <div class="wrapper">
+                <h2 class="title-projets" data-aos="fade-down-right">Mes projets</h2>
+                <div class="projets" x-init="fetchJsonData">
+                    <template x-for="projet in jsonData" :key="projet.id">
+                        <div class="card-projets" @click.stop="openModal(projet)" data-aos="fade-up">
+                            <div class="title-card">
+                                <h3 x-text="projet.name"></h3>
+                            </div>
+                            <div class="card-image"><img :src="projet.thumbnailSrc" alt="Image illustrant le projet" /></div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <h2 class="title-contact" data-aos="fade-down-right">Contact</h2>
+                <div class="annonce-contact" data-aos="flip-down">
+                    <p>Si vous êtes intéressé par mon profil, n’hésitez surtout pas à me contacter par l’un des moyens suivants :</p>
+                </div>
+                <div class="coordonnees">
+                    <div class="container-Email">
+                        <p data-aos="fade-right">Mon E-mail :</p>
+                        <div class="Email" data-aos="fade-left">
+                            <a href="mailto:benjamin.hunckler@gmail.com">benjamin.hunckler@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="container-numero">
+                        <p>Mes numéros de téléphone : </p>
+                        <div class="numeros" data-aos="fade-left">
+                            <p>+1 (418)-429-9743</p>
+                            <p>+33 6.31.43.25.90</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-text">
+            <p>Benjamin HUNCKLER | Tous droits réservés</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

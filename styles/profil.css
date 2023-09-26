@@ -1,0 +1,113 @@
+#container-info-perso{
+    margin: 150px 0;
+}
+
+.contenu-perso{
+    display: flex;
+    justify-content: center;
+}
+
+.img-profil > img{
+    width: 338px;
+    border-radius: 100%;
+    padding-top: 150px;
+}
+
+.text-profil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.text-profil > p{
+    margin: 5px;
+}
+
+.text-profil > ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul > li{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.text-profil > h2,p,ul {
+    color: black;
+}
+
+@media screen and (max-width: 950px) {
+    .contenu-perso{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #container-info-perso{
+        display: none;
+    }
+
+    #container-info-perso2{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .contenu-perso2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-profil > img{
+        padding-top: 0;
+        width: 300px;
+        border-radius: 30% 30% 100% 100%;
+    }
+
+    .text-profil{
+        margin: 0;
+        width: 90%;
+    }
+
+    .text-profil > h2{
+        text-align: center;
+    }
+
+    .text-profil > p{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    #container-info-perso2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .img-profil > img{
+        padding-top: 0;
+        width: 150px;
+        border-radius: 30% 30% 100% 100%;
+    }
+
+    .text-profil{
+        margin: 0;
+        width: 90%;
+    }
+
+    .text-profil > h2{
+        text-align: center;
+    }
+
+    .text-profil > p{
+        width: 100%;
+    }
+}

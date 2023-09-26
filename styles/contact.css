@@ -1,0 +1,166 @@
+#contact{
+    background-color: var(--color-primary);
+    padding: 20px;
+}
+
+.title-contact{
+    position: relative;
+    z-index: 1;
+    color: var(--color-clear);
+}
+
+.title-contact::before{
+    content: "";
+    position: absolute;
+    left: 11%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: var(--color-clear);
+}
+
+.annonce-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.annonce-contact > p{
+    text-align: center;
+    font-size: 26px;
+}
+
+.coordonnees{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-Email{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.Email{
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 0 190px 0 10px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.Email > a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Email > a:hover{
+    color: var(--color-primary);
+}
+
+.container-numero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-numero > p{
+    margin-top: 35px;
+}
+
+.numeros{
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 0 300px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numeros > p{
+    margin: 0px;
+    color: black;
+}
+
+@media screen and (max-width: 950px) {
+    .title-contact::before{
+        left: 16%;
+        bottom: -15px;
+        width: 200px;
+    }
+
+    .Email{
+        padding: 0 140px 0 10px;
+    }
+
+    .numeros{
+        padding: 0 250px 0 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Email{
+        padding: 0 75px 0 10px;
+        margin-left: 10px;
+    }
+
+    .numeros{
+        padding: 0 160px 0 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .annonce-contact > p{
+        font-size: 18px;
+    }
+
+    .numeros{
+        margin-left: 10px;
+        padding: 0 36px 0 10px;
+    }
+
+    .Email{
+        margin-left: 65px;
+        padding: 0 36px 0 10px;
+    }
+
+    .Email > a{
+        font-size: 16px;
+    }
+    .numeros > p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title-contact::before{
+        left: 30%;
+        bottom: -15px;
+        width: 200px;
+    }
+
+    .annonce-contact > p{
+        font-size: 18px;
+    }
+
+    .numeros{
+        margin-left: 10px;
+        padding: 0 10px 0 10px;
+        width: 200px;
+    }
+
+    .Email{
+        margin-left: 5px;
+        padding: 0 10px 0 10px;
+    }
+
+    .Email > a{
+        font-size: 16px;
+    }
+    .numeros > p{
+        font-size: 16px;
+    }
+}

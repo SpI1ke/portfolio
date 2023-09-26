@@ -1,0 +1,41 @@
+header, footer{
+    background-color: var(--color-primary);
+}
+
+h2{
+    font-size: 38px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+body{
+    background-color: var(--color-clear);
+    margin: 0;
+
+    font-family: 'LucidaSansTypewriterStd', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}

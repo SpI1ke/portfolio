@@ -1,0 +1,113 @@
+/* Styles pour le menu burger */
+.navbar {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: var(--color-primary);
+    border-bottom: 2px solid var(--color-clear);
+    z-index: 999;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 0 0;
+    display: flex;
+    
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+}
+
+li > a{
+    color: var(--color-clear);
+    text-decoration: none;
+}
+
+li > a:hover{
+    color: var(--color-secondary);
+}
+
+.navbar-menu > li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+    transition: width .4s ease;
+}
+
+.navbar-menu > li:hover::before {
+    width: 100%;
+}
+  
+
+/* Styles pour le menu burger mobile */
+@media screen and (max-width: 750px) {
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-clear);
+    }
+
+    .navbar-toggler {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        background-color: var(--color-clear);
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    #toggle-button {
+        background: url('./img/burger-solid.svg') no-repeat center center;
+        background-size: contain; /* Pour s'assurer que l'image est entièrement visible */
+        width: 30px; /* Largeur souhaitée */
+        height: 30px; /* Hauteur souhaitée */
+        border: none; /* Supprimer les bordures du bouton */
+        cursor: pointer; /* Afficher le curseur de la main au survol */
+        padding: 0; /* Supprimer le rembourrage interne du bouton */
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-menu li {
+        margin: 10px 0;
+    }
+
+    li > a{
+        color: var(--color-primary);
+        padding-left: 20px;
+    }
+}

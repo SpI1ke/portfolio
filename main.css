@@ -1,0 +1,46 @@
+@import "./reset.css";
+
+/* HEADER */
+@import "./styles/header.css";
+
+/* MON PROFIL */
+@import "./styles/profil.css";
+
+/* LOGICIELS MAITRISES */
+@import "./styles/logiciels.css";
+
+/* MES PROJETS */
+@import "./styles/projets.css";
+
+/* CONTACT */
+@import "./styles/contact.css";
+
+/* FOOTER */
+@import "./styles/footer.css";
+
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+:root{
+    --color-primary :#e7bb55;
+    --color-secondary : #8E46B0;
+    --color-clear : whitesmoke;
+    --color-dark : black;
+}
+
+@font-face {
+    font-family: 'LucidaSansTypewriterStd';
+    src: url('./typo/LucidaSansTypewriterStd.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}

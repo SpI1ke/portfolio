@@ -1,0 +1,160 @@
+#container-logiciels{
+    background-color: var(--color-primary);
+    padding: 20px;
+}
+
+.title-logiciels{
+    position: relative;
+    z-index: 1;
+    color: var(--color-clear);
+}
+
+.title-logiciels::before{
+    content: "";
+    position: absolute;
+    left: 17%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: var(--color-clear);
+}
+
+.categorie-logiciel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-logo-com{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-logo{
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    max-height: 230px;
+}
+
+.container-logo > h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container-logo-com > h3{
+    display: flex;
+    justify-content: center;
+}
+
+.all-logo-com{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.all-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-logo > p{
+    color: white;
+    margin-top: 0;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text{
+    min-height: 100px;
+    max-height: 150px;
+    
+}
+
+.logo-text > p{
+    text-align: center;
+    color: var(--color-dark);
+    margin-top: 0;
+}
+
+.logo{
+    min-height: 120px;
+}
+
+.logo > img{
+    width: 100px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .title-logiciels::before{
+        left: 29%;
+        bottom: -15px;
+        width: 400px;
+    }
+
+    .categorie-logiciel{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;   
+    }
+
+    .all-logo-com{
+        width: 100%;
+    }
+
+    .container-logo{
+        width: 89%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .categorie-logiciel{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;   
+    }
+
+    .container-logo{
+        width: 35%;
+        min-height: 500px;
+    }
+
+    .all-logo-com{
+        width: auto;
+    }
+
+    .all-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .container-autres{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title-logiciels::before{
+        left: 45%;
+        bottom: -15px;
+        width: 300px;
+    }
+
+    .container-logo{
+        width: 27%;
+    }
+}

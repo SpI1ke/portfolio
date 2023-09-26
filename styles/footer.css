@@ -1,0 +1,12 @@
+.footer-container{
+    border-top: 3px solid var(--color-clear);
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text > p{
+    color: white;
+}

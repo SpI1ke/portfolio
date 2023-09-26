@@ -1,0 +1,21 @@
+{
+    "projetsList":[
+        {
+            "id":"0",
+            "name":"Projet Emmaüs Mundo",
+            "resume":"Lors de ce projet mon groupe et moi devions retravailler toute la communication digitale de l'association, afin qu'elle est un plus grand impact en fonction de ces cibles.",
+            "description":"ggtfgt",
+            "thumbnailSrc":"../img/beecom.png",
+            "img1Src":"../img/beecom.png"
+        },
+        {
+            "id":"1",
+            "name":"Tournée des Terroirs",
+            "resume":"Lors de mon stage au CIVA j'ai été en charge de la communication sur un événement Facebook en lien avec l'événement de la Tournée des Terroirs",
+            "description":"ggtfgt",
+            "thumbnailSrc":"../img/Civa_TDT_RS16.jpg",
+            "img1Src":"../img/bollenberg.jpg"
+        }
+        
+    ]
+}
