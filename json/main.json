@@ -4,17 +4,22 @@
             "id":"0",
             "name":"Projet Emmaüs Mundo",
             "resume":"Lors de ce projet mon groupe et moi devions retravailler toute la communication digitale de l'association, afin qu'elle est un plus grand impact en fonction de ces cibles.",
-            "description":"ggtfgt",
-            "thumbnailSrc":"../img/beecom.png",
-            "img1Src":"../img/beecom.png"
+            "thumbnailSrc":"./img/beecom.png",
+            "newPage":"./emmaus.html"
         },
         {
             "id":"1",
             "name":"Tournée des Terroirs",
             "resume":"Lors de mon stage au CIVA j'ai été en charge de la communication sur un événement Facebook en lien avec l'événement de la Tournée des Terroirs",
-            "description":"ggtfgt",
-            "thumbnailSrc":"../img/Civa_TDT_RS16.jpg",
-            "img1Src":"../img/bollenberg.jpg"
+            "thumbnailSrc":"./img/Civa_TDT_RS16.jpg",
+            "newPage":"./event-facebook.html"
+        },
+        {
+            "id":"2",
+            "name":"Campagne de micro-influence",
+            "resume":"Durant mon stage j'ai été responsable d'une campagne de micro-influence pour la promotion de la « Tournée des Terroirs »",
+            "thumbnailSrc":"./img/Civa_TDT_RS16.jpg",
+            "newPage":"./micro-influence.html"
         }
         
     ]

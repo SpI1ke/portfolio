@@ -1,0 +1,81 @@
+/* PREMIER PROJET */
+
+/* SECOND PROJET */
+.second-projet > .premier-bloc2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.premier-bloc2 > img{
+    width: 40vw;
+    margin-bottom: 5vh;
+}
+
+.premier-bloc2 > p{
+    width: 40vw;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.second-projet > .second-bloc2{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-primary);
+}
+
+.second-bloc2 > img{
+    width: 40vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.second-bloc2 > p{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+
+.second-projet > .troisieme-bloc2{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.troisieme-bloc2 > p{
+    width: 70%;
+}
+
+/* TROISIEME PROJET */
+.troisieme-projet > .premier-bloc3{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.premier-bloc3 > p{
+    width: 90%;
+}
+
+.troisieme-projet > .second-bloc3{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.troisieme-projet > .quatrieme-bloc3{
+    background-color: var(--color-primary);
+}
+
+.second-bloc3 > img{
+    padding-top: 10vh;
+    width: 90%;
+}
+
+.second-bloc3 > p{
+    width: 90%;
+}

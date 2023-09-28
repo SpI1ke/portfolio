@@ -29,7 +29,7 @@
     </header>
 
     
-    <main x-data="app">
+    <main x-data="app()">
         <section id="container-info-perso">
             <div class="contenu-perso wrapper">
                 <div class="img-profil" data-aos="fade-right">
@@ -190,8 +190,8 @@
             <div class="wrapper">
                 <h2 class="title-projets" data-aos="fade-down-right">Mes projets</h2>
                 <div class="projets" x-init="fetchJsonData">
-                    <template x-for="projet in jsonData" :key="projet.id">
-                        <div class="card-projets" @click.stop="openModal(projet)" data-aos="fade-up">
+                    <template x-for="(projet, index) in jsonData" :key="projet.id">
+                        <div class="card-projets" @click.stop="openNewPage(projet)" data-aos="fade-up" :data-index="index">
                             <div class="title-card">
                                 <h3 x-text="projet.name"></h3>
                             </div>

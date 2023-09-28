@@ -18,6 +18,9 @@
 /* FOOTER */
 @import "./styles/footer.css";
 
+/* DESCRIPTION DU PORJET */
+@import "./styles/description-projet.css";
+
 .wrapper{
     margin: 0 auto;
     width: 80%;
