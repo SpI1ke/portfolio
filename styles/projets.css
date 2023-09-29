@@ -31,6 +31,8 @@
 
 .projets{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -50,7 +52,7 @@
 
 .card-projets:nth-child(2n+1){
     width: 35%;
-    max-height: 500px;
+    max-height: 675px;
     margin: 0px auto;
     background-color: var(--color-primary);
     border-radius: 30px;
