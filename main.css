@@ -36,7 +36,8 @@
 
 :root{
     --color-primary :#e7bb55;
-    --color-secondary : #8E46B0;
+    --color-secondary : #ddbd72ab;
+    --color-menu : #a38744;
     --color-clear : whitesmoke;
     --color-dark : black;
 }
