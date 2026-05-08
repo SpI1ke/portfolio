@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer src="./js/menu-burger.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio | Benjamin HUNCKLER</title>
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav class="navbar">
+            <img src="./img/Sunset.JPG" class="background-image-second">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">BH</a>
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#container-info-perso">À propos</a></li>
+                    <li><a href="#container-logiciels">Mes compétences</a></li>
+                    <li><a href="#container-projets">Mes projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="navbar-toggler" id="toggle-button">
+                    <img src="./img/burger-menu.svg" class="navbar-icon">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="premier-projet">
+            <h1 data-aos="fade-down">Création d'un itinéraire de voyage</h1>
+            <div class="premier-bloc1">
+                <p class="text-description" data-aos="fade-up">Dans le cadre de ma formation, j’ai conçu un forfait de voyage personnalisé pour un couple souhaitant découvrir le
+                Danemark. L’objectif de ce projet était de proposer un itinéraire cohérent, équilibré et adapté à des voyageurs curieux,
+                sensibles à la culture locale, à la nature et aux expériences authentiques. Le circuit a été pensé sur plusieurs jours,
+                avec un déplacement en voiture afin d’offrir une plus grande liberté et flexibilité. Les contraintes incluaient un
+                budget raisonnable, une diversité d’activités (culturelles, naturelles et ludiques), ainsi qu’une organisation fluide
+                entre les différentes étapes du voyage.</p>
+            </div>
+            <div class="second-bloc1">
+                <div class="sous-second-bloc1">
+                    <h2 data-aos="fade-down">Aspect technique de la création d'un itinéraire</h2>
+                    <p class="text-description" data-aos="fade-up">Pour réaliser ce projet, j’ai effectué des recherches approfondies à partir de sources fiables afin de sélectionner les
+                    destinations, activités, hébergements et restaurants les plus pertinents. J’ai utilisé une approche centrée sur le
+                    client, en adaptant chaque choix à leurs attentes (authenticité, immersion, durabilité). J’ai également travaillé sur la
+                    cohérence géographique du parcours afin d’optimiser les déplacements. L’un des principaux défis a été de trouver un
+                    équilibre entre la richesse des activités proposées et le rythme du voyage, sans surcharger l’itinéraire. De plus, la
+                    sélection d’expériences réellement authentiques, tout en restant accessibles et réalistes, a été un enjeu.</p>
+                </div>
+                <img src="./img/Danemark.png" data-aos="fade-left">
+            </div>
+            <div class="troisieme-bloc1">
+                <img src="./img/Trajet_danemark.png" data-aos="fade-right">
+                <div class="sous-troisieme-bloc1">
+                    <h2 data-aos="fade-down">Parcours proposé</h2>
+                    <p class="text-description" data-aos="fade-up">Le circuit débute à Copenhague, où les voyageurs découvrent la capitale à travers des activités immersives comme la
+                    visite à vélo et les canaux. Ils poursuivent ensuite vers l’île de Fionie avec des étapes à Faaborg et Odense, mettant
+                    en avant la nature, le patrimoine et des expériences uniques comme le Saunagus. Le parcours continue vers Kolding et
+                    Billund, avec une alternance entre détente, découverte botanique et activités ludiques comme LEGOLAND. Enfin, le voyage
+                    se termine à Aarhus, où les voyageurs explorent la culture locale, la nature et la scène gastronomique. L’ensemble du
+                    circuit propose une progression logique, variée et enrichissante.
+                    </p>
+                </div>
+            </div>
+            <div class="quatrieme-bloc1">
+                <div class="sous-quatrieme-bloc1">
+                    <h2 data-aos="fade-down">Compétences développé</h2>
+                    <ul>
+                        <li data-aos="fade-right"><b>Recherche et analyse :</b> J’ai appris à sélectionner des informations fiables et pertinentes afin de construire un projet
+                        crédible et réaliste</li>
+                        <li data-aos="fade-right"><b>Planification et organisation :</b> J’ai développé ma capacité à structurer un itinéraire fluide en tenant compte des
+                        distances, du temps et du rythme des voyageurs.</li>
+                        <li data-aos="fade-right"><b>Compréhension des besoins clients :</b> J’ai adapté mes choix en fonction d’un profil précis, ce qui m’a permis de proposer
+                        une expérience personnalisée.</li>
+                        <li data-aos="fade-right"><b>Gestion des contraintes :</b> J’ai appris à faire des compromis entre budget, temps et qualité des expériences proposées.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-text">
+            <p>Benjamin HUNCKLER | Tous droits réservés</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

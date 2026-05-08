@@ -1,0 +1,27 @@
+{
+    "projetsList":[
+        {
+            "id":"0",
+            "name":"Organisation d'un Marché de Noël",
+            "resume":"Lors de mon DEC en Techniques de Tourisme, j'ai dû organiser avec un groupe un événement de finacement. Nous avons décider d'organiser un marché de Noël pau Cégep de Matane. Nosu avons dû trouver des fournisseurs, des activités et faire la promotion de l'événement.",
+            "thumbnailSrc":"./img/Affiche_noel_minimaliste_rouge_blanc.png",
+            "newPage":"./marche-noel.html"
+        },
+        {
+            "id":"1",
+            "name":"Relations publiques pour la compétition Mate Rov",
+            "resume":"Lors de mon DEC en Techniques de Tourisme, j'ai participer à l'organisation d'une compétiton Mate Rov au niveau marketing et communication. ",
+            "thumbnailSrc":"./img/Affiche_Enseignant_Relations_publiques.png",
+            "newPage":"./MateRov.html"
+        },
+        {
+            "id":"2",
+            "name":"Création d'un itinéraire de voyage",
+            "resume":"Lors de mon DEC en Techniques de Tourisme, j'ai dû créer un itinéraire de voyage pour une destination de mon choix. J'ai choisi de créer un itinéraire pour le Danemark. J'ai dû trouver des activités, des hébergements et des restaurants pour les voyageurs en prenant en compte leur exigence et demande.",
+            "thumbnailSrc":"./img/danemark.png",
+            "newPage":"./itineraire-voyage.html"
+        }
+        
+        
+    ]
+}

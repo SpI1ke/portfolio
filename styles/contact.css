@@ -1,0 +1,224 @@
+#contact{
+    background-color: var(--color-primary);
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.background-image-contact{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 113%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.title-contact{
+    position: relative;
+    z-index: 1;
+    color: var(--color-clear);
+}
+
+.title-contact::before{
+    content: "";
+    position: absolute;
+    left: 8%;
+    bottom: -15px;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: var(--color-clear);
+}
+
+.annonce-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.annonce-contact > p{
+    text-align: center;
+    font-size: 26px;
+    color: var(--color-clear);
+}
+
+.coordonnees{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-Email{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.container-Email > p{
+    color: var(--color-clear);
+}
+
+.Email{
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 0 190px 0 10px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.Email > a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Email > a:hover{
+    color: var(--color-primary);
+}
+
+.container-numero{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.container-numero > p{
+    margin-top: 35px;
+    color: var(--color-clear);
+}
+
+.numeros{
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 0 300px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numeros > p{
+    margin: 0px;
+    color: black;
+}
+
+.container-CV{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-CV > p{
+    margin-top: 35px;
+    color: var(--color-clear);
+}
+
+.CV{
+    background-color: var(--color-clear);
+    border-radius: 10px;
+    padding: 0 230px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.CV > a > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.CV > p > a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.CV > p > a:hover{
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 950px) {
+    .title-contact::before{
+        left: 16%;
+        bottom: -15px;
+        width: 200px;
+    }
+
+    .Email{
+        padding: 0 140px 0 10px;
+    }
+
+    .numeros{
+        padding: 0 250px 0 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Email{
+        padding: 0 75px 0 10px;
+        margin-left: 10px;
+    }
+
+    .numeros{
+        padding: 0 160px 0 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .annonce-contact > p{
+        font-size: 18px;
+    }
+
+    .numeros{
+        margin-left: 10px;
+        padding: 0 36px 0 10px;
+    }
+
+    .Email{
+        margin-left: 65px;
+        padding: 0 36px 0 10px;
+    }
+
+    .Email > a{
+        font-size: 16px;
+    }
+    .numeros > p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title-contact::before{
+        left: 20%;
+        bottom: -15px;
+        width: 150px;
+    }
+
+    .annonce-contact > p{
+        font-size: 18px;
+    }
+
+    .numeros{
+        margin-left: 10px;
+        padding: 0 10px 0 10px;
+        width: 200px;
+    }
+
+    .Email{
+        margin-left: 5px;
+        padding: 0 10px 0 10px;
+    }
+
+    .Email > a{
+        font-size: 16px;
+    }
+    .numeros > p{
+        font-size: 16px;
+    }
+}
