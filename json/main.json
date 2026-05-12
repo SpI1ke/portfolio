@@ -18,7 +18,7 @@
             "id":"2",
             "name":"Création d'un itinéraire de voyage",
             "resume":"Lors de mon DEC en Techniques de Tourisme, j'ai dû créer un itinéraire de voyage pour une destination de mon choix. J'ai choisi de créer un itinéraire pour le Danemark. J'ai dû trouver des activités, des hébergements et des restaurants pour les voyageurs en prenant en compte leur exigence et demande.",
-            "thumbnailSrc":"./img/danemark.png",
+            "thumbnailSrc":"./img/Danemark.png",
             "newPage":"./itineraire-voyage.html"
         }
         
